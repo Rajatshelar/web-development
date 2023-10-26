@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css Verification</title>
+    <style>
+        :root{
+            --color:rgb(245, 94, 119);
+            --seccolor:pink;
+            --defpad:24px
+        }
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .nav{
+            background-color: var(--color,pink);
+        }
+        ul{
+            display: flex;
+        }
+        ul li {
+            list-style: none;
+    
+            padding: var(--defpad);
+            border: 2px solid var(--seccolor);
+        }
+        .container{
+            background-color: var(--seccolor,pink);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul class="nav">
+            <li>Home</li>
+            <li>About</li>
+            <li>container</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem, nemo. Itaque incidunt maxime saepe placeat debitis numquam, dolorem, quaerat veniam perferendis esse eveniet accusantium nulla nisi at cumque ex a. Sapiente quam hic molestiae odit ratione, voluptatem esse libero blanditiis, vel quaerat, rem accusamus sunt?
+    </div>
+    
+</body>
+</html>
