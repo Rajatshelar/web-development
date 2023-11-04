@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo page layout</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Gabarito:wght@600;800;900&family=Poppins:wght@300&display=swap');
+      </style>
+    <style>
+        :root{
+            --primary-color:rgb(92, 83, 3);
+            --secondary-color:rgb(245, 173, 173);
+            --text-color:white;
+        }
+        *{
+            margin: 0;
+            padding: 0;
+            font-family: poppins;
+            
+        }
+        body{
+            height: 70cm;
+            background-color: var(--secondary-color);
+
+        }
+        nav{
+            padding: 25px;
+            background-color: var(--primary-color);
+        }
+        ul li{
+            
+            padding: 23px;
+            display: inline;
+        }
+        ul li a{
+            color: var(--text-color);
+            text-decoration: none;
+        }
+        div{
+            background-color:rgb(212, 132, 11);
+            width: 35cm;
+            height: 1500px;
+            padding: 10px;
+            border: 2px solid black;
+            margin: 5px;
+        }   
+        .pt{
+            height: 17cm;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .sq{
+            margin: 10px;
+            padding: 0.5cm;
+            width: 15cm;
+            height: 15cm; 
+            margin-right: 10px;
+        }
+        .pr{
+            
+            border: 2px solid black;
+            border-radius: 20px;
+            height: 6cm;
+            width: 30cm;
+            clear: left;
+            display: flex;
+            text-align: center;
+            justify-content: center;
+            align-self: center;
+            align-items: center;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Contact Us</a></li>
+            <li><a href="">More</a></li>
+        </ul>
+    </nav>
+    <div class="pt">
+        <div class="sq">
+
+        </div>
+        <div class="sq">
+
+        </div>
+       
+    </div>
+    <div class="pr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat, consequatur. Expedita laudantium id doloremque perspiciatis quidem nam consequuntur dignissimos, praesentium minima molestias assumenda ab!</div>
+
+    
+    
+</body>
+</html>
